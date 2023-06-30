@@ -4,9 +4,79 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    section {
+      padding: 20px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
+  <header role="heading">
+    <img src="your_image_url_here" alt="Your Name" role="img">
+    <h1>Your Name</h1>
+    <a href="https://www.linkedin.com/in/dev-parmar-61b5241b8/" target="_blank">Connect with me on LinkedIn</a>
+  </header>
+
+  <section id="skills" role="list">
+    <h2 role="heading">Skills</h2>
+    <ul>
+      <li role="listitem">HTML</li>
+      <li role="listitem">CSS</li>
+      <li role="listitem">JavaScript</li>
+      <li role="listitem">Python</li>
+      <!-- Add more skills as needed -->
+    </ul>
+  </section>
+
+  <section id="projects" role="list">
+    <h2 role="heading">Projects</h2>
+    <ul>
+      <li role="listitem">Project 1 - Description of Project 1</li>
+      <li role="listitem">Project 2 - Description of Project 2</li>
+      <li role="listitem">Project 3 - Description of Project 3</li>
+      <!-- Add more projects as needed -->
+    </ul>
+  </section>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
